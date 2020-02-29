@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>HOME OF PIZZERIAS</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
 
-    
+    <h1>HOME PIZZERIAS</h1>
     <div id="home">
         <div id="topnav">
             <a href="#home">Home</a>
@@ -39,28 +39,43 @@
     <div class="jumbotron">
     <form action="/action-page.php"autocomplete="on">
     <div id="forms">
-        pizza:<select name="size">
+        <p>pizza size:</p>
+      <select name="size">
             <option value="large">Large</option>
             <option value="medium">Medium</option>
             <option value="small">Small</option>
         </select><br>
-        crust:<select name="crust">
+        <!-- <p>number of pizzas:</p> -->
+
+        <p> choose your favourite crust:</p>
+        <select name="crust">
             <option value="crispi">Crispi@1450ksh</option>
             <option value="stuffed">Stuffed@1300ksh</option>
             <optin value="glutten-free">Glutten-free@1600ksh</optin>
         </select><br>
-        Toppings:<select name="size">
+        <p> choose your favourite toppings:</p>
+        <select name="size">
             <option value="onion">Onion@500ksh</option>
             <option value="mushrooms">Mushrooms@700ksh</option>
             <option value="blackolives">Blackolives@600ksh</option>
             <option value="greenpepper">Greenpepper@250ksh</option>
+            <option value="pepperoni">Pepperoni@400ksh</option>
+            <option value="bacon">Bacon@650ksh</option>
+            <option value="sausages">sausages@550ksh</option>
         </select><br>
-        Pick your flavour:<select name="flavour">
+        <p>Pick your flavour:</p>
+        <select name="flavour">
             <option value="Veg tikka">Veg tikka</option>
             <option value="Chicken tikka">Chicken tikka</option>
             <option value="Periperi chicken">Periperi chicken</option>
             <option value="Regina pizza">Reginja pizza</option>
-        </select>
+        </select><br>
+        <button type="submit" class="btn btn-danger checkout" id="checkout">Checkout</button>
+
+        <form action="/action page.php">
+            <p>Name</p>
+            <input type="text" id="name" value="name">
+        </form>
 
     </div>
 </div>
