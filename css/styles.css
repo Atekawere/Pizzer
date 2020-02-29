@@ -51,3 +51,9 @@ img{
 h4{
     margin-top: 40px;
 }
+input{
+    height: 50px;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 10px
+}
