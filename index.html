@@ -7,15 +7,12 @@
     <title>HOME OF PIZZERIAS</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
 </head>
 <body>
 
-    <h1>HOME PIZZERIANS</h1>
+    <h1 style="color: red;">HOME PIZZERIANS</h1>
     <div id="home">
-        <div id="topnav">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#our services">Our services</a>
         </div>
     </div>
 
@@ -48,8 +45,8 @@
             <option value="medium">Medium</option>
             <option value="small">Small</option>
         </select><br>
-        <!-- <p>number of pizzas:</p> -->
-
+        <p>number of pizzas:</p>
+      <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
         <p> choose your favourite crust:</p>
         <select name="crust">
             <option value="crispi">Crispi@1450ksh</option>
@@ -83,16 +80,26 @@
     <input type="text" id="name" placeholder="Name"><br>
     <p>Location</p>
     <input type="text" id="location" placeholder="Location"><br>
-    <p>Enter phone number:</p>
-    <input type="number" id="number" placeholder="Number" id="number"><br>
-    <button type="submit" class="btn btn-danger checkout" id="checkout">Checkout</button>
+    <button type="submit" class="btn btn-danger " id="checkout"  onclick="myDelivery(
+        )">Checkout</button>
 </div>
 </form>
 </div>
 </div>
 </div>
+<footer>
+    <div class="contacts" id="contacts">
 
-    <script src="js/jquery-3.4.1.js"></script>
+        <h2>Contacts</h2>
+        <h3 class="hd">Address</h3>
+        <p>P.O BOX&nbsp;12244553<br />
+         Huruma, Starehe, Nairobi</p>
+
+</footer>
+<p style="color: red;">MIT 2020</p>
+<P style="color: red;">%%HOME OF PIZZERIANS%%</P>
+
+    <script src="/js/jquery-3.4.1.js"></script>
     <script src="script.js"></script>
 
 </body>

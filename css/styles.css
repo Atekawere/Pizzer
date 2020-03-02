@@ -56,3 +56,12 @@ input{
     border-radius: 10px;
     margin-top: 10px;
 }
+footer{
+    color: red;
+}
+#number{
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 10px;
+}

@@ -1,9 +1,10 @@
 
 $(document).ready(function(){
-    $("form#delivery").checkout(function(event){
-        var name = $("input#name").val();
-        var location = $("input#location").val();
-        var number = $("input#number").val();
-        alert("Hello" + name + "we have received your order and will be delivered to you" + location + "in an hour thankyou for chosing home of pizzerians")
-    });
-});
+    $("")
+})
+
+function myDelivery(name,location){
+    var name=document.getElementById("name").value
+    var location=document.getElementById("location").value
+    alert("Hello " + name + " we have received your order and will be delivered to you " + location + " in an hour thankyou for chosing home of pizzerians your delivery cost is 450ksh")
+}
