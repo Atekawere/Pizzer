@@ -12,10 +12,7 @@
 <body>
 
     <h1 style="color: red;">HOME PIZZERIANS</h1>
-    <div id="home">
-        </div>
-    </div>
-
+    <div id="home"></div>
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -45,8 +42,7 @@
             <option value="medium">Medium</option>
             <option value="small">Small</option>
         </select><br>
-        <p>number of pizzas:</p>
-      <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+
         <p> choose your favourite crust:</p>
         <select name="crust">
             <option value="crispi">Crispi@1450ksh</option>
@@ -80,8 +76,9 @@
     <input type="text" id="name" placeholder="Name"><br>
     <p>Location</p>
     <input type="text" id="location" placeholder="Location"><br>
-    <button type="submit" class="btn btn-danger " id="checkout"  onclick="myDelivery(
-        )">Checkout</button>
+    <p>number of pizzas:</p>
+      <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+    <button type="submit" class="btn btn-danger " id="checkout"  onclick="myDelivery()">Checkout</button>
 </div>
 </form>
 </div>

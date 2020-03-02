@@ -1,8 +1,4 @@
 
-$(document).ready(function(){
-    $("")
-})
-
 function myDelivery(name,location){
     var name=document.getElementById("name").value
     var location=document.getElementById("location").value
