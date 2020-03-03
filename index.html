@@ -38,19 +38,19 @@
     <div id="forms">
         <p>pizza size:</p>
       <select name="size">
-            <option value="2000" >Large</option>
+            <option value="large" >Large</option>
             <option value="medium">Medium</option>
             <option value="small">Small</option>
         </select><br>
 
         <p> choose your favourite crust:</p>
-        <select name="crust">
+        <select name="crust" id="crust">
             <option value="crispi">Crispi@1450ksh</option>
             <option value="stuffed">Stuffed@1300ksh</option>
             <optin value="glutten-free">Glutten-free@1600ksh</optin>
         </select><br>
         <p> choose your favourite toppings:</p>
-        <select name="size">
+        <select name="toppings" id="toppings">
             <option value="onion">Onion@500ksh</option>
             <option value="mushrooms">Mushrooms@700ksh</option>
             <option value="blackolives">Blackolives@600ksh</option>
@@ -66,7 +66,7 @@
             <option value="Periperi chicken">Periperi chicken</option>
             <option value="Regina pizza">Regina pizza</option>
         </select><br>
-        <button type="submit" class="btn btn-danger checkout" id="checkout">Checkout</button>
+        <button type="submit" class="btn btn-danger checkout" id="checkout" onclick="myOrder()">Checkout</button>
     </div>
 </div>
 <form id="delivery">
